@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1459199698925-99516b9fe6a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 20%;
+}
+
+button {
+
+    margin-left: 41%;
+    margin-top: 30px;
+    background-color: tomato;
+    padding: 10px 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    cursor: pointer;
+    border: 2px solid white;
+    color: white;
+    font-size: 16px;
+    transition: all 1s;
+
+}
+
+button:hover {
+
+    background-color: teal;
+    color: violet;
+}
+
+.modal-parent {
+    position: fixed;
+    top: 0;
+    left:0;
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+
+.modal {
+    background-color: white;
+    width: 65%;
+    padding: 10px;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-family: monospace;
+    position: relative;
+    animation: 4s identifier;
+}
+
+
+@keyframes identifier {
+
+    0%{
+        top: -100px;
+    }
+    100%{
+        left: 50%;
+    }
+
+
+}
+
+
+
+.X {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    cursor: pointer;
+}
+
+section {
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
